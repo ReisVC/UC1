@@ -1,3 +1,7 @@
+Nome dos planejadores:
+Vitor Vitalino
+Lucas Willian
+Carolina Becker Ramos
 
       DISK NÓIA
 
@@ -27,10 +31,10 @@ O sistema deve incluir todas as entradas e saídas de produtos, como horário, v
 
 - Entrada de produtos para o estoque;
 - Saída de produtos para venda;
-- Horário/data de todos os produtos movimentados (entrada/saída)
-- Valor de todos os itens que entraram e saíram
-- Quantidades de produtos movimentados
-- Quantidade de produtos no estoque antes e depois da movimentação
+- Horário/data de todos os produtos movimentados (entrada/saída);
+- Valor de todos os itens que entraram e saíram;
+- Quantidades de produtos movimentados;
+- Quantidade de produtos no estoque antes e depois da movimentação;
 
 
 4. Registro de usuário
