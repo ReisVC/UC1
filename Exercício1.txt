@@ -1,0 +1,48 @@
+
+      DISK NÓIA
+
+1. Cadastro de produtos
+
+O sistema de cadastro de bebidas deve incluir as informações de todas as bebidas:
+
+Nome: Nome do produto.
+Tipo: Tipo do produto (cerveja, refrigerante...)
+Marca: Marca da produto (Coca-Cola, Corona...)
+Preço: Preços de compra e venda.
+Quantidade em Estoque: Número de produtos disponível para a venda.
+Validade: Data de vencimento de todos os produtos no estoque
+
+2. Sistema de Login
+
+Cadastro de entrada de funcionários para o sistema principal, que deve incluir:
+
+- Registro de horário de login e logout do usuário;
+- Sistema de login incluindo usuário e senha; 
+- Registro de vendas no nome do usuário;
+
+
+3. Registro de Vendas
+
+O sistema deve incluir todas as entradas e saídas de produtos, como horário, valor e quantidade, são eles:
+
+- Entrada de produtos para o estoque;
+- Saída de produtos para venda;
+- Horário/data de todos os produtos movimentados (entrada/saída)
+- Valor de todos os itens que entraram e saíram
+- Quantidades de produtos movimentados
+- Quantidade de produtos no estoque antes e depois da movimentação
+
+
+4. Registro de usuário
+
+Sistema de cadastro de usuário que deve incluir informações como:
+
+PARA CLIENTES:
+- Documento do cliente (RG, CNH, CPF);
+- Data de nascimento para verificação de maioridade;
+- Telefone/celular para contato;
+
+PARA FUNCIONÁRIOS:
+- Documento dos funcionários (RG, CNH, CPF);
+- Data de nascimento;
+- Telefone/celular para contato;
