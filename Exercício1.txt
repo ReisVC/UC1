@@ -5,16 +5,18 @@ Carolina Becker Ramos
 
       DISK NÓIA
 
+------------- REQUISITOS FUNCIONAIS -------------
+
 1. Cadastro de produtos
 
 O sistema de cadastro de bebidas deve incluir as informações de todas as bebidas:
 
-Nome: Nome do produto.
-Tipo: Tipo do produto (cerveja, refrigerante...)
-Marca: Marca da produto (Coca-Cola, Corona...)
-Preço: Preços de compra e venda.
-Quantidade em Estoque: Número de produtos disponível para a venda.
-Validade: Data de vencimento de todos os produtos no estoque
+Nome: Nome do produto;
+Tipo: Tipo do produto (cerveja, refrigerante...);
+Marca: Marca da produto (Coca-Cola, Corona...);
+Preço: Preços de compra e venda;
+Quantidade em Estoque: Número de produtos disponível para a venda;
+Validade: Data de vencimento de todos os produtos no estoque;
 
 2. Sistema de Login
 
@@ -36,8 +38,15 @@ O sistema deve incluir todas as entradas e saídas de produtos, como horário, v
 - Quantidades de produtos movimentados;
 - Quantidade de produtos no estoque antes e depois da movimentação;
 
+4. Catálogo de Vendas
 
-4. Registro de usuário
+- Deve conter Carrinho de compras (registrando vendas no cadastro do cliente);
+- Deve conter catálogo para vendas online com tele-entrega;
+- Deve conter opções de pagamento e processamento de venda online;
+- Deve possibilitar edição no carrinho de compras para dicionar ou retirar itens;
+- Deve perguntar se quer o CPF na nota;
+
+5. Registro de usuário
 
 Sistema de cadastro de usuário que deve incluir informações como:
 
@@ -45,8 +54,38 @@ PARA CLIENTES:
 - Documento do cliente (RG, CNH, CPF);
 - Data de nascimento para verificação de maioridade;
 - Telefone/celular para contato;
+- Endereço do Usuário.
 
 PARA FUNCIONÁRIOS:
 - Documento dos funcionários (RG, CNH, CPF);
 - Data de nascimento;
 - Telefone/celular para contato;
+
+6. Sistema de Catálogo
+
+- Sistema deve ter um catálogo online para fácil visualização do usuário, além de uma ligação direta com o sistema de estoque para ter uma melhor transparência entre o usuário e a loja;
+
+------------- REQUISITOS NÃO FUNCIONAIS -------------
+
+1. Desempenho
+
+- O sistema deve ser composto por um bom processador de dados, para que ocorra uma rápida interação entre o sistema e o usuário;
+- O sistema deve haver alta capacidade de dados para que possa ocorrer grandes movimentos de forma simultânea;
+
+2. Segurança
+
+- Segurança no sistema de produtos, funcionários e usuários deve ser fundamental, para que não venha ocorrer um possível vazamentos de dados pessoais e manter a privacidade tanto do usuário, quanto do próprio sistema;
+- Sistema deve guardar todas informações de forma segura e criptografada;
+- Deve possuir um sistema de backup definido para que haja sempre a menor perda possível;
+- Deve ter arquivamento local para que funcione em casos de queda do servidor online.
+
+3. Usabilidade
+
+- O sistema deve ter uma interface de fácil visualização e com aparência atrativa;
+- O usuário precisa ter acesso direto aos itens e valores, tal como o acesso ao carrinho de compras e a forma de pagamento.
+- Deve possuir salvamento automático para manter o usuário conectado em casos de queda do sistema.
+
+4. Confiabilidade
+
+- Arquitetura confiável visando a prevenção dos principais erros registrados em compras e vendas;
+- Deve ser um sistema confiável que possua certa autonomia, evitando possíveis falhas ou quedas no sistema;
